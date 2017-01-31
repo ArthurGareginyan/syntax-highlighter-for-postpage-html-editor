@@ -1,0 +1,149 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Syntax Highlighter for Post/Page HTML Editor\n"
+"POT-Creation-Date: 2017-01-31 07:56+0300\n"
+"PO-Revision-Date: 2017-01-31 06:52+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: syntax-highlighter-for-post-page-html-editor.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#. Plugin Name of the plugin/theme
+#: inc/php/settings_page.php:43
+#: syntax-highlighter-for-post-page-html-editor.php:105
+msgid "Syntax Highlighter for Post/Page HTML Editor"
+msgstr ""
+
+#: inc/php/settings_page.php:46
+msgid ""
+"by <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Arthur "
+"Gareginyan</a>"
+msgstr ""
+
+#: inc/php/settings_page.php:57
+msgid "About"
+msgstr ""
+
+#: inc/php/settings_page.php:59
+msgid ""
+"This plugin replaces the defaults WordPress Post/Page HTML Editor with an "
+"enhanced editor with syntax highlighting and line numbering."
+msgstr ""
+
+#: inc/php/settings_page.php:64
+msgid "Using"
+msgstr ""
+
+#: inc/php/settings_page.php:66
+msgid ""
+"To use, select the desired settings, then click \"Save Changes\". It's that "
+"simple!"
+msgstr ""
+
+#: inc/php/settings_page.php:71
+msgid "Help"
+msgstr ""
+
+#: inc/php/settings_page.php:73
+msgid "Got something to say? Need help?"
+msgstr ""
+
+#: inc/php/settings_page.php:79
+#: syntax-highlighter-for-post-page-html-editor.php:89
+msgid "Donate"
+msgstr ""
+
+#: inc/php/settings_page.php:81
+msgid ""
+"I'm an independent developer, without a regular income, so every little "
+"contribution helps cover my costs and lets me spend more time building "
+"things for people like you to enjoy."
+msgstr ""
+
+#: inc/php/settings_page.php:85
+msgid "Thanks for your support!"
+msgstr ""
+
+#: inc/php/settings_page.php:106
+msgid "Main Settings"
+msgstr ""
+
+#: inc/php/settings_page.php:108
+msgid "There you can configure this plugin."
+msgstr ""
+
+#: inc/php/settings_page.php:114
+msgid "Color theme:"
+msgstr ""
+
+#: inc/php/settings_page.php:131
+msgid "Theme which you like to view."
+msgstr ""
+
+#: inc/php/settings_page.php:137
+msgid "Display line numbers:"
+msgstr ""
+
+#: inc/php/settings_page.php:146
+msgid "First line number:"
+msgstr ""
+
+#: inc/php/settings_page.php:155
+msgid "Line wrapping:"
+msgstr ""
+
+#: inc/php/settings_page.php:164
+msgid "The width of Tab:"
+msgstr ""
+
+#: inc/php/settings_page.php:171
+msgid "Save Changes"
+msgstr ""
+
+#: inc/php/settings_page.php:176
+msgid "Preview"
+msgstr ""
+
+#: inc/php/settings_page.php:178
+msgid "Click \"Save Changes\" to update this preview."
+msgstr ""
+
+#: inc/php/settings_page.php:180
+msgid "This is an example of HTML markup."
+msgstr ""
+
+#: syntax-highlighter-for-post-page-html-editor.php:73
+msgid "Settings"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"https://github.com/ArthurGareginyan/syntax-highlighter-for-post-page-html-"
+"editor"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Replaces the defaults WordPress Post/Page HTML Editor with an enhanced "
+"editor with syntax highlighting and line numbering."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Arthur Gareginyan"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.arthurgareginyan.com"
+msgstr ""
