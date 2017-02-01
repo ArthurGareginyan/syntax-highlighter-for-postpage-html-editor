@@ -105,9 +105,8 @@ A. Yes, any financial contributions are welcome! Just visit my website and click
 == Screenshots ==
 1. Plugin settings page.
 2. Default WP Post\Page HTML Editor.
-3. Post Editor that provided by this plugin (color theme: ambiance).
-4. Post Editor that provided by this plugin (color theme: default).
-5. Page Editor that provided by this plugin (color theme: ambiance).
+3. Post\Page HTML Editor that provided by this plugin (theme: default).
+4. Post\Page HTML Editor that provided by this plugin (theme: ambiance).
 
 
 == Other Notes ==
