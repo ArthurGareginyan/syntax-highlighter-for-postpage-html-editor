@@ -2,7 +2,7 @@
 
 **Free Premium WorPress Plugin**
 
-![screenshot](https://github.com/ArthurGareginyan/syntax-highlighter-for-post-page-html-editor/blob/master/assets/banner-772x250.png)
+![screenshot](https://github.com/ArthurGareginyan/syntax-highlighter-for-postpage-html-editor/blob/master/assets/banner-772x250.png)
 
 An easy to use WordPress plugin that replaces the default Post & Page HTML/Text Editor with an enhanced editor by a [CodeMirror library](https://codemirror.net/). The WordPress default Post & Page HTML/Text Editor is great for doing some custom changes to HTML markup of your post/page, although it is rather limited. This is where the "Syntax Highlighter for Post/Page HTML Editor" can help. With an enhanced HTML/Text editor you can see a code with syntax highlighting, and with line numbering, so you can easily read your HTML markup and detect any errors.
 
@@ -39,7 +39,7 @@ Welcome and thanks! I appreciate you taking the initiative to contribute to this
 
 Contributing isn’t limited to just code. I encourage you to contribute in the way that best fits your abilities, by writing tutorials, making translation to your native language, giving a demo at your local meetup, helping other users with their support questions, or revising  the documentation for this project.
 
-Please take a moment to read the guidelines in the [CONTRIBUTING.md](https://github.com/ArthurGareginyan/syntax-highlighter-for-post-page-html-editor/blob/master/CONTRIBUTING.md). Following them helps to communicate that you respect the time of the other contributors to the project. In turn, they’ll do their best to reciprocate that respect when working with you, across timezones and around the world.
+Please take a moment to read the guidelines in the [CONTRIBUTING.md](https://github.com/ArthurGareginyan/syntax-highlighter-for-postpage-html-editor/blob/master/CONTRIBUTING.md). Following them helps to communicate that you respect the time of the other contributors to the project. In turn, they’ll do their best to reciprocate that respect when working with you, across timezones and around the world.
 
 
 ## Security Vulnerabilities
@@ -69,7 +69,7 @@ Arthur Garegnyan
 
 ## Links
 
-* [Dedicated Plugin Page on WordPress.org](https://wordpress.org/plugins/syntax-highlighter-for-post-page-html-editor/)
+* [Dedicated Plugin Page on WordPress.org](https://wordpress.org/plugins/syntax-highlighter-for-postpage-html-editor/)
 
 
 ---

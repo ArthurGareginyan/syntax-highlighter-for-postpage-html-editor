@@ -11,7 +11,7 @@ Following guidelines will result in less work for both you and me. Please take t
 
 ## Submitting bug reports
 
-The preferred way to report bugs is to use the [GitHub issue tracker](https://github.com/ArthurGareginyan/syntax-highlighter-for-post-page-html-editor/issues). Before reporting a bug, read these pointers.
+The preferred way to report bugs is to use the [GitHub issue tracker](https://github.com/ArthurGareginyan/syntax-highlighter-for-postpage-html-editor/issues). Before reporting a bug, read these pointers.
 
 **Note:** The issue tracker is for *bugs*, not requests for help.
 
