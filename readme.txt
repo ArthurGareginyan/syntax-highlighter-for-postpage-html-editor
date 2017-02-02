@@ -1,6 +1,6 @@
 === Syntax Highlighter for Post/Page HTML Editor ===
 Contributors: Arthur Gareginyan
-Tags: text editor, editor, article editor, post editor, page editor, enhanced editor, enhanced, edit, editing, editor
+Tags: text editor, editor, article editor, post editor, page editor, enhanced editor, enhanced, edit, editing, editor, code, xml, html ,css, javascript, codemirror, code mirror, hightlight, syntax highlighting, syntaxhighlighting, syntax highlighter, syntaxhighlighter, syntax, markup, developer
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.7
