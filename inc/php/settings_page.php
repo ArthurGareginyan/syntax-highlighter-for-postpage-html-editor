@@ -75,6 +75,21 @@ There are a few things to verify:
                         </div>
                     </div>
 
+                    <div id="donate" class="postbox">
+                        <h3 class="title"><?php _e( 'Donate', SHPPHE_TEXT ); ?></h3>
+                        <div class="inside">
+                            <p><?php _e( 'I\'m an independent developer, without a regular income, so every little contribution helps cover my costs and lets me spend more time building things for people like you to enjoy.', SHPPHE_TEXT ); ?></p>
+                            <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS" target="_blank" rel="nofollow">
+                                <img src="<?php echo plugins_url('../img/donate.png', __FILE__); ?>" alt="Make a donation">
+                            </a>
+                            <p><?php _e( 'Thanks for your support!', SHPPHE_TEXT ); ?></p>
+                        </div>
+                    </div>
+
+                    <a href="//www.iconfinder.com/?ref=ArthurGareginyan" target="_blank" rel="nofollow">
+                        <img style="border:0px" src="<?php echo plugins_url('../img/banner.png', __FILE__); ?>" width="280" height="180" alt="">
+                    </a>
+
                 </div>
             </div>
             <!-- END-SIDEBAR -->
