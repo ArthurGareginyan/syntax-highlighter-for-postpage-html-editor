@@ -21,6 +21,7 @@ This plugin is just plug and play, no tedious configurations or hacks, just inst
 * Easy to use Settings Page
 * Live preview on Settings Page
 * Ready for translation (POT file included)
+* Published on [WordPess.org](http://wordpess.org/)
 
 **Supported languages:**
 
