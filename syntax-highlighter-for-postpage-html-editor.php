@@ -1,13 +1,13 @@
 <?php
 /**
  * Plugin Name: Syntax Highlighter for Post/Page HTML Editor
- * Plugin URI: https://github.com/ArthurGareginyan/syntax-highlighter-for-post-page-html-editor
+ * Plugin URI: https://github.com/ArthurGareginyan/syntax-highlighter-for-postpage-html-editor
  * Description: Replaces the defaults WordPress Post/Page HTML Editor with an enhanced editor with syntax highlighting and line numbering.
  * Author: Arthur Gareginyan
  * Author URI: http://www.arthurgareginyan.com
  * Version: 1.0
  * License: GPL3
- * Text Domain: syntax-highlighter-for-post-page-html-editor
+ * Text Domain: syntax-highlighter-for-postpage-html-editor
  * Domain Path: /languages/
  *
  * Copyright 2017 Arthur Gareginyan (email : arthurgareginyan@gmail.com)
@@ -46,7 +46,7 @@ defined('SHPPHE_DIR') or define('SHPPHE_DIR', dirname(plugin_basename(__FILE__))
 defined('SHPPHE_BASE') or define('SHPPHE_BASE', plugin_basename(__FILE__));
 defined('SHPPHE_URL') or define('SHPPHE_URL', plugin_dir_url(__FILE__));
 defined('SHPPHE_PATH') or define('SHPPHE_PATH', plugin_dir_path(__FILE__));
-defined('SHPPHE_TEXT') or define('SHPPHE_TEXT', 'syntax-highlighter-for-post-page-html-editor');
+defined('SHPPHE_TEXT') or define('SHPPHE_TEXT', 'syntax-highlighter-for-postpage-html-editor');
 defined('SHPPHE_VERSION') or define('SHPPHE_VERSION', '1.0');
 
 /**
@@ -70,7 +70,7 @@ add_action( 'init', 'SHighlighterForPPHE_textdomain' );
  * @return array        Array of links to be output on Plugin Admin page.
  */
 function SHighlighterForPPHE_settings_link( $links ) {
-	$settings_page = '<a href="' . admin_url( 'options-general.php?page=syntax-highlighter-for-post-page-html-editor.php' ) .'">' . __( 'Settings', SHPPHE_TEXT ) . '</a>';
+	$settings_page = '<a href="' . admin_url( 'options-general.php?page=syntax-highlighter-for-postpage-html-editor.php' ) .'">' . __( 'Settings', SHPPHE_TEXT ) . '</a>';
 	array_unshift( $links, $settings_page );
 	return $links;
 }
@@ -83,7 +83,7 @@ add_filter( 'plugin_action_links_'.SHPPHE_BASE, 'SHighlighterForPPHE_settings_li
  */
 function SHighlighterForPPHE_plugin_row_meta( $links, $file ) {
 
-    if ( strpos( $file, 'syntax-highlighter-for-post-page-html-editor.php' ) !== false ) {
+    if ( strpos( $file, 'syntax-highlighter-for-postpage-html-editor.php' ) !== false ) {
 
         $new_links = array(
                            'donate' => '<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS" target="_blank"><span class="dashicons dashicons-heart"></span> ' . __( 'Donate', SHPPHE_TEXT ) . '</a>'
@@ -179,7 +179,7 @@ function SHighlighterForPPHE_load_scripts($hook) {
     }
 
     // If is a settings page of this plugin
-    if ( 'settings_page_syntax-highlighter-for-post-page-html-editor' == $hook ) {
+    if ( 'settings_page_syntax-highlighter-for-postpage-html-editor' == $hook ) {
 
         // Style sheet
         wp_enqueue_style( 'SHighlighterForWPE-admin-css', SHPPHE_URL . 'inc/css/admin.css' );

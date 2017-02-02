@@ -49,8 +49,8 @@ Please keep in mind that not all translations are up to date. You are welcome to
 >Developing plugins is long and tedious work. If you benefit or enjoy this plugin please take the time to:
 >
 >* [Donate](http://www.arthurgareginyan.com/donate.html) to support ongoing development. Your contribution would be greatly appreciated.
->* [Rate and Review](https://wordpress.org/support/view/plugin-reviews/syntax-highlighter-for-post-page-html-editor?rate=5#postform) this plugin.
->* [Share with me](mailto:arthurgareginyan@gmail.com) or view the [GitHub Repo](https://github.com/ArthurGareginyan/syntax-highlighter-for-post-page-html-editor) if you have any ideas or suggestions to make this plugin better.
+>* [Rate and Review](https://wordpress.org/support/view/plugin-reviews/syntax-highlighter-for-postpage-html-editor?rate=5#postform) this plugin.
+>* [Share with me](mailto:arthurgareginyan@gmail.com) or view the [GitHub Repo](https://github.com/ArthurGareginyan/syntax-highlighter-for-postpage-html-editor) if you have any ideas or suggestions to make this plugin better.
 
 
 == Installation ==
@@ -93,7 +93,7 @@ A. Absolutely not. This plugin is added/configured entirely from the website's A
 A. As with every plugin, it's possible that things don't work. The most common reason for this is that the plugin has a conflict with another plugin you're using. It's impossible to tell what could be wrong exactly, but if you post a support request in the plugin's support forum on WordPress.org, I'd be happy to give it a look and try to help out. Please include as much information as possible, including a link to your website where the problem can be seen.
 
 = Q. Where to report bug if found? =
-A. Please visit [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/syntax-highlighter-for-post-page-html-editor) and report.
+A. Please visit [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/syntax-highlighter-for-postpage-html-editor) and report.
 
 = Q. Where to share any ideas or suggestions to make the plugin better? =
 A. Please send me email [arthurgareginyan@gmail.com](mailto:arthurgareginyan@gmail.com).
@@ -129,7 +129,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 **Links**
 
 * [Developer Website](http://www.arthurgareginyan.com)
-* [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/syntax-highlighter-for-post-page-html-editor)
+* [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/syntax-highlighter-for-postpage-html-editor)
 
 
 == Changelog ==
