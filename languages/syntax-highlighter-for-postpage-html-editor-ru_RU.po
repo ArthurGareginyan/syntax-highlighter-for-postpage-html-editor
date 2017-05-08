@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Syntax Highlighter for Post/Page HTML Editor\n"
-"POT-Creation-Date: 2017-01-31 07:56+0300\n"
-"PO-Revision-Date: 2017-01-31 08:04+0300\n"
+"POT-Creation-Date: 2017-05-07 13:26+0300\n"
+"PO-Revision-Date: 2017-05-07 17:41+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -16,30 +16,239 @@ msgstr ""
 "X-Poedit-WPHeader: syntax-highlighter-for-postpage-html-editor.php\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
-"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
-"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
+#: inc/php/core.php:31 inc/php/page.php:40
+msgid "Settings"
+msgstr "Настройки"
+
+#: inc/php/core.php:47
+msgid "Donate"
+msgstr "Поддержать разработку"
+
 #. Plugin Name of the plugin/theme
-#: inc/php/settings_page.php:43
-#: syntax-highlighter-for-postpage-html-editor.php:105
+#: inc/php/core.php:62 inc/php/page.php:25
 msgid "Syntax Highlighter for Post/Page HTML Editor"
-msgstr ""
+msgstr "Syntax Highlighter for Post/Page HTML Editor"
 
-#: inc/php/settings_page.php:46
+#: inc/php/messages.php:30
+msgid "Hello. I'm Arthur, the author of this plugin."
+msgstr "Привет! Я Артур, автор этого плагина."
+
+#: inc/php/messages.php:32
+#, php-format
+msgid "Thank you for installing my plugin! I hope you will love it %s"
+msgstr "Спасибо, что установили мой плагин! Надеюсь, что он вам полюбится %s"
+
+#: inc/php/messages.php:67
+msgid "You have installed an old version of this plugin."
+msgstr "Вы установили устаревшую версию этого плагина."
+
+#: inc/php/messages.php:68
+msgid "Please update the plugin to the latest version, and all will be fine."
+msgstr "Пожалуйста, обновите плагин до последней версии и всё будет отлично."
+
+#: inc/php/page.php:28
+#, php-format
+msgid "by %s Arthur Gareginyan %s"
+msgstr "от %s Артура Гарегинян %s"
+
+#: inc/php/page.php:41 inc/php/page.php:61
+msgid "Usage"
+msgstr "Применение"
+
+#: inc/php/page.php:42
+msgid "F.A.Q."
+msgstr "F.A.Q."
+
+#: inc/php/page.php:43 inc/php/page.php:163
+msgid "Author"
+msgstr "Автор"
+
+#: inc/php/page.php:44 inc/php/page.php:172 inc/php/settings.php:28
+#: inc/php/settings.php:162
+msgid "Support"
+msgstr "Поддержка"
+
+#: inc/php/page.php:45
+msgid "Family"
+msgstr "Семья"
+
+#: inc/php/page.php:63
 msgid ""
-"by <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Arthur "
-"Gareginyan</a>"
+"To replace the default Post/Page HTML editor with an enhanced editor that "
+"provided by this plugin, simply follow these steps:"
 msgstr ""
-"от <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Артур "
-"Гарегинян</a>"
 
-#: inc/php/settings_page.php:57
+#: inc/php/page.php:65
+msgid "Go to the \"Settings\" tab."
+msgstr "Перейдите на вкладку «Настройки»."
+
+#: inc/php/page.php:66
+msgid "Select the desired settings and click the \"Save Changes\" button."
+msgstr "Выберите нужные настройки и нажмите кнопку «Сохранить изменения»."
+
+#: inc/php/page.php:67
+msgid "Enjoy your fancy Post/Page Editor."
+msgstr ""
+
+#: inc/php/page.php:67
+msgid "It's that simple!"
+msgstr "Вот так просто!"
+
+#: inc/php/page.php:69
+msgid "Note!"
+msgstr "Примечание!"
+
+#: inc/php/page.php:69
+msgid "If you want more options then tell me and I will be happy to add it."
+msgstr ""
+"Если вы хотите больше опций, то скажите мне об этом и я буду счастлив "
+"добавить их."
+
+#: inc/php/page.php:78
+msgid "Frequently Asked Questions"
+msgstr "Часто задаваемые вопросы"
+
+#: inc/php/page.php:100
+msgid "Will this plugin work on my WordPress.COM website?"
+msgstr "Этот плагин будет работать на моем сайте WordPress.COM?"
+
+#: inc/php/page.php:101
+msgid ""
+"Sorry, this plugin is available for use only on self-hosted (WordPress.ORG) "
+"websites."
+msgstr ""
+"К сожалению, этот плагин доступен для использования только на самостоятельно "
+"размещённых веб-сайтах (WordPress.ORG)."
+
+#: inc/php/page.php:103
+msgid "Can I use this plugin on my language?"
+msgstr "Можно ли использовать этот плагин на моём языке?"
+
+#: inc/php/page.php:105
+#, php-format
+msgid ""
+"Yes. But If your language is not available then you can make one. This "
+"plugin is ready for translation. The<code>.pot</code>file is included and "
+"placed in the <code>languages</code> folder. Many of plugin users would be "
+"delighted if you shared your translation with the community. Just send the "
+"translation files (<code>*.po, *.mo</code>) to me at the %s and I will "
+"include the translation within the next plugin update."
+msgstr ""
+
+#: inc/php/page.php:110
+msgid "How does it work?"
+msgstr "Как оно работает?"
+
+#: inc/php/page.php:111
+msgid ""
+"On the \"Settings\" tab, select the desired settings and click the \"Save "
+"Changes\" button. Enjoy your fancy Post/Page Editor. It's that simple!"
+msgstr ""
+
+#: inc/php/page.php:113
+msgid ""
+"Does this plugin provide a syntax highlighting for the Theme/Plugin Editor?"
+msgstr ""
+
+#: inc/php/page.php:115
+#, php-format
+msgid ""
+"No, only the Post/Psge Editor supports. For the Theme/Plugin Editor you can "
+"use my another plugin that called the %s Syntax Highlighter for Post/Page "
+"HTML Editor %s."
+msgstr ""
+
+#: inc/php/page.php:121
+msgid "Does this plugin requires any modification of the theme?"
+msgstr "Этот плагин требует изменения темы?"
+
+#: inc/php/page.php:122
+msgid ""
+"Absolutely not. This plugin is configurable entirely from the plugin "
+"settings page."
+msgstr ""
+"Абсолютно нет. Этот плагин настраивается полностью на странице настроек "
+"плагина."
+
+#: inc/php/page.php:124
+msgid "Does this require any knowledge of HTML or CSS?"
+msgstr "Требуются ли какие-либо знания HTML или CSS?"
+
+#: inc/php/page.php:125
+msgid ""
+"This plugin can be configured with no knowledge of HTML or CSS, using an "
+"easy-to-use plugin settings page. But you need to know the HTML or CSS in "
+"order to add/remove/modify the HTML or CSS code by using this plugin."
+msgstr ""
+"Этот плагин можно настроить без знания HTML или CSS, с помощью простой в "
+"использовании страницы настройки плагина. Но вам нужно знать HTML или CSS "
+"для того, чтобы добавить/удалить/изменить код HTML или CSS, используя этот "
+"плагин."
+
+#: inc/php/page.php:127
+msgid "It's not working. What could be wrong?"
+msgstr "Оно не работает. Что может быть не так?"
+
+#: inc/php/page.php:128
+msgid ""
+"As with every plugin, it's possible that things don't work. The most common "
+"reason for this is a web browser's cache. Every web browser stores a cache "
+"of the websites you visit (pages, images, and etc.) to reduce bandwidth "
+"usage and server load. This is called the browser's cache.​ Clearing your "
+"browser's cache may solve the problem."
+msgstr ""
+
+#: inc/php/page.php:129
+msgid ""
+"It's impossible to tell what could be wrong exactly, but if you post a "
+"support request in the plugin's support forum on WordPress.org, I'd be happy "
+"to give it a look and try to help out. Please include as much information as "
+"possible, including a link to your website where the problem can be seen."
+msgstr ""
+
+#: inc/php/page.php:131
+msgid "Where to report bug if found?"
+msgstr "Где можно сообщить об ошибке?"
+
+#: inc/php/page.php:133
+#, php-format
+msgid "Please visit the %s Dedicated Plugin Page on GitHub %s and report."
+msgstr ""
+"Пожалуйста, посетите %s страницу плагина на GitHub %s и сообщите об ошибке."
+
+#: inc/php/page.php:139
+msgid "Where to share any ideas or suggestions to make the plugin better?"
+msgstr ""
+"Где можно поделиться идеями или предложениями, чтобы сделать плагин лучше?"
+
+#: inc/php/page.php:141
+#, php-format
+msgid ""
+"Any suggestions are very welcome! Please send me an email to %s "
+"arthurgareginyan@gmail.com %s. Thank you!"
+msgstr ""
+
+#: inc/php/page.php:147
+msgid "I love this plugin! Can I help somehow?"
+msgstr "Я очень люблю этот плагин! Могу Я чем-то помочь?"
+
+#: inc/php/page.php:149
+#, php-format
+msgid ""
+"Yes, any financial contributions are welcome! Just visit %s my website %s, "
+"click on the donate button, and thank you!"
+msgstr ""
+
+#: inc/php/settings.php:21
 msgid "About"
 msgstr "О плагине"
 
-#: inc/php/settings_page.php:59
+#: inc/php/settings.php:23
 msgid ""
 "This plugin replaces the defaults WordPress Post/Page HTML Editor with an "
 "enhanced editor with syntax highlighting and line numbering."
@@ -48,32 +257,7 @@ msgstr ""
 "Page HTML Editor) на улучшенный редактор с подсветкой синтаксиса и "
 "нумерацией строк."
 
-#: inc/php/settings_page.php:64
-msgid "Using"
-msgstr "Использование"
-
-#: inc/php/settings_page.php:66
-msgid ""
-"To use, select the desired settings, then click \"Save Changes\". It's that "
-"simple!"
-msgstr ""
-"Для использования, выберите нужные параметры, а затем нажмите кнопку "
-"«Сохранить изменения». Это так просто!"
-
-#: inc/php/settings_page.php:71
-msgid "Help"
-msgstr "Помощь"
-
-#: inc/php/settings_page.php:73
-msgid "Got something to say? Need help?"
-msgstr "Есть что сказать? Нужна помощь?"
-
-#: inc/php/settings_page.php:79
-#: syntax-highlighter-for-postpage-html-editor.php:89
-msgid "Donate"
-msgstr "Поддержать разработку"
-
-#: inc/php/settings_page.php:81
+#: inc/php/settings.php:30 inc/php/settings.php:164
 msgid ""
 "I'm an independent developer, without a regular income, so every little "
 "contribution helps cover my costs and lets me spend more time building "
@@ -83,69 +267,77 @@ msgstr ""
 "вклад помогает мне покрыть затраты и позволяет тратить больше времени на "
 "создание программ для людей как вы."
 
-#: inc/php/settings_page.php:85
+#: inc/php/settings.php:31 inc/php/settings.php:165
+msgid "Donate with PayPal"
+msgstr ""
+
+#: inc/php/settings.php:32 inc/php/settings.php:166
 msgid "Thanks for your support!"
 msgstr "Спасибо за вашу поддержку!"
 
-#: inc/php/settings_page.php:106
+#: inc/php/settings.php:37
+msgid "Help"
+msgstr "Помощь"
+
+#: inc/php/settings.php:39
+msgid "Got something to say? Need help?"
+msgstr "Есть что сказать? Нужна помощь?"
+
+#: inc/php/settings.php:83
 msgid "Main Settings"
 msgstr "Основные Настройки"
 
-#: inc/php/settings_page.php:108
+#: inc/php/settings.php:85
 msgid "There you can configure this plugin."
 msgstr "Здесь вы можете настроить этот плагин."
 
-#: inc/php/settings_page.php:114
+#: inc/php/settings.php:91
 msgid "Color theme:"
 msgstr "Цветовая схема:"
 
-#: inc/php/settings_page.php:131
+#: inc/php/settings.php:108
 msgid "Theme which you like to view."
 msgstr "Тема, которую вы хотите использовать."
 
-#: inc/php/settings_page.php:137
+#: inc/php/settings.php:114
 msgid "Display line numbers:"
 msgstr "Отображать номера строк:"
 
-#: inc/php/settings_page.php:146
+#: inc/php/settings.php:123
 msgid "First line number:"
 msgstr "Номер первой строки:"
 
-#: inc/php/settings_page.php:155
+#: inc/php/settings.php:132
 msgid "Line wrapping:"
 msgstr "Перенос строк:"
 
-#: inc/php/settings_page.php:164
+#: inc/php/settings.php:141
 msgid "The width of Tab:"
 msgstr "Ширина Таба:"
 
-#: inc/php/settings_page.php:171
+#: inc/php/settings.php:148
 msgid "Save Changes"
 msgstr "Сохранить изменения"
 
-#: inc/php/settings_page.php:176
+#: inc/php/settings.php:153
 msgid "Preview"
 msgstr "Предварительный просмотр"
 
-#: inc/php/settings_page.php:178
-msgid "Click \"Save Changes\" to update this preview."
+#: inc/php/settings.php:155
+msgid "Click the \"Save Changes\" button to update this preview."
 msgstr ""
 "Нажмите кнопку «Сохранить изменения», чтобы обновить этот пред. просмотр."
 
-#: inc/php/settings_page.php:180
+#: inc/php/settings.php:157
 msgid "This is an example of HTML markup."
 msgstr "Это пример HTML разметки."
 
-#: syntax-highlighter-for-postpage-html-editor.php:73
-msgid "Settings"
-msgstr "Настройки"
-
 #. Plugin URI of the plugin/theme
 msgid ""
-"https://github.com/ArthurGareginyan/syntax-highlighter-for-post-page-html-"
+"https://github.com/ArthurGareginyan/syntax-highlighter-for-postpage-html-"
 "editor"
 msgstr ""
-"https://github.com/ArthurGareginyan/syntax-highlighter-for-post-page-html-"
+"https://github.com/ArthurGareginyan/syntax-highlighter-for-postpage-html-"
 "editor"
 
 #. Description of the plugin/theme
@@ -163,6 +355,34 @@ msgstr "Артур Гарегинян"
 #. Author URI of the plugin/theme
 msgid "http://www.arthurgareginyan.com"
 msgstr "http://www.arthurgareginyan.com"
+
+#~ msgid "Click \"Save Changes\" to update this preview."
+#~ msgstr ""
+#~ "Нажмите кнопку «Сохранить изменения», чтобы обновить этот пред. просмотр."
+
+#~ msgid ""
+#~ "by <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Arthur "
+#~ "Gareginyan</a>"
+#~ msgstr ""
+#~ "от <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Артур "
+#~ "Гарегинян</a>"
+
+#~ msgid "Using"
+#~ msgstr "Использование"
+
+#~ msgid ""
+#~ "To use, select the desired settings and click \"Save Changes\". It's that "
+#~ "simple!"
+#~ msgstr ""
+#~ "Для использования, выберите нужные параметры, а затем нажмите кнопку "
+#~ "«Сохранить изменения». Это так просто!"
+
+#~ msgid ""
+#~ "https://github.com/ArthurGareginyan/syntax-highlighter-for-post-page-html-"
+#~ "editor"
+#~ msgstr ""
+#~ "https://github.com/ArthurGareginyan/syntax-highlighter-for-post-page-html-"
+#~ "editor"
 
 #~ msgid "This is an example of HTML language."
 #~ msgstr "Это пример HTML языка."
