@@ -5,7 +5,7 @@
  * Description: Replaces the defaults WordPress Post/Page HTML Editor with an enhanced editor with syntax highlighting and line numbering.
  * Author: Arthur Gareginyan
  * Author URI: http://www.arthurgareginyan.com
- * Version: 2.0
+ * Version: 2.0.1
  * License: GPL3
  * Text Domain: syntax-highlighter-for-postpage-html-editor
  * Domain Path: /languages/
@@ -62,7 +62,7 @@ defined('SHPPHE_BASE') or define('SHPPHE_BASE', plugin_basename(__FILE__));
 defined('SHPPHE_URL') or define('SHPPHE_URL', plugin_dir_url(__FILE__));
 defined('SHPPHE_PATH') or define('SHPPHE_PATH', plugin_dir_path(__FILE__));
 defined('SHPPHE_TEXT') or define('SHPPHE_TEXT', 'syntax-highlighter-for-postpage-html-editor');
-defined('SHPPHE_VERSION') or define('SHPPHE_VERSION', '2.0');
+defined('SHPPHE_VERSION') or define('SHPPHE_VERSION', '2.0.1');
 
 /**
  * Load the plugin modules
