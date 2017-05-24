@@ -5,14 +5,14 @@
  *
  * @since 0.1
  */
-defined('ABSPATH') or die("Restricted access!");
+defined( 'ABSPATH' ) or die( "Restricted access!" );
 
 /**
  * Delete options on uninstall
  *
- * @since 0.1
+ * @since 2.1
  */
 function SHighlighterForPPHE_uninstall() {
-    delete_option( 'SHighlighterForPPHE_settings' );
+    delete_option( SHPPHE_SETTINGS . '_settings' );
 }
-register_uninstall_hook( __FILE__, 'SHighlighterForPPHE_uninstall' );
+register_uninstall_hook( __FILE__, SHPPHE_PREFIX . '_uninstall' );

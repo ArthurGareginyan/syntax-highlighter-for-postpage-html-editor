@@ -5,7 +5,7 @@
  * Description: Replaces the defaults WordPress Post/Page HTML Editor with an enhanced editor with syntax highlighting and line numbering.
  * Author: Arthur Gareginyan
  * Author URI: http://www.arthurgareginyan.com
- * Version: 2.0.1
+ * Version: 2.1
  * License: GPL3
  * Text Domain: syntax-highlighter-for-postpage-html-editor
  * Domain Path: /languages/
@@ -50,19 +50,23 @@
  *
  * @since 0.1
  */
-defined('ABSPATH') or die("Restricted access!");
+defined( 'ABSPATH' ) or die( "Restricted access!" );
 
 /**
  * Define global constants
  *
- * @since 1.0
+ * @since 2.1
  */
-defined('SHPPHE_DIR') or define('SHPPHE_DIR', dirname(plugin_basename(__FILE__)));
-defined('SHPPHE_BASE') or define('SHPPHE_BASE', plugin_basename(__FILE__));
-defined('SHPPHE_URL') or define('SHPPHE_URL', plugin_dir_url(__FILE__));
-defined('SHPPHE_PATH') or define('SHPPHE_PATH', plugin_dir_path(__FILE__));
-defined('SHPPHE_TEXT') or define('SHPPHE_TEXT', 'syntax-highlighter-for-postpage-html-editor');
-defined('SHPPHE_VERSION') or define('SHPPHE_VERSION', '2.0.1');
+defined( 'SHPPHE_DIR' ) or define( 'SHPPHE_DIR', dirname( plugin_basename( __FILE__ ) ) );
+defined( 'SHPPHE_BASE' ) or define( 'SHPPHE_BASE', plugin_basename( __FILE__ ) );
+defined( 'SHPPHE_URL' ) or define( 'SHPPHE_URL', plugin_dir_url( __FILE__ ) );
+defined( 'SHPPHE_PATH' ) or define( 'SHPPHE_PATH', plugin_dir_path( __FILE__ ) );
+defined( 'SHPPHE_TEXT' ) or define( 'SHPPHE_TEXT', 'syntax-highlighter-for-postpage-html-editor' );
+defined( 'SHPPHE_SLUG' ) or define( 'SHPPHE_SLUG', 'syntax-highlighter-for-postpage-html-editor' );
+defined( 'SHPPHE_PREFIX' ) or define( 'SHPPHE_PREFIX', 'SHighlighterForPPHE' );
+defined( 'SHPPHE_SETTINGS' ) or define( 'SHPPHE_SETTINGS', 'SHighlighterForPPHE' );
+defined( 'SHPPHE_NAME' ) or define( 'SHPPHE_NAME', 'Syntax Highlighter for Post/Page HTML Editor' );
+defined( 'SHPPHE_VERSION' ) or define( 'SHPPHE_VERSION', get_file_data( __FILE__, array( 'Version' ) ) );
 
 /**
  * Load the plugin modules
