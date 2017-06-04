@@ -10,7 +10,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 /**
  * Render Settings Tab
  *
- * @since 2.2
+ * @since 2.3
  */
 ?>
     <!-- SIDEBAR -->
@@ -21,6 +21,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                 <h3 class="title"><?php _e( 'About', SHPPHE_TEXT ); ?></h3>
                 <div class="inside">
                     <p><?php _e( 'This plugin replaces the defaults WordPress Post/Page HTML Editor with an enhanced editor with syntax highlighting and line numbering.', SHPPHE_TEXT ); ?></p>
+                    <p class="version"><?php _e( 'Version', SHPPHE_TEXT ); ?> <?php echo SHPPHE_VERSION; ?></p>
                 </div>
             </div>
 
