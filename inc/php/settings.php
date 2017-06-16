@@ -10,7 +10,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 /**
  * Render Settings Tab
  *
- * @since 2.3
+ * @since 2.4
  */
 ?>
     <!-- SIDEBAR -->
@@ -18,27 +18,25 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
         <div id="side-sortables" class="meta-box-sortabless ui-sortable">
 
             <div id="about" class="postbox">
-                <h3 class="title"><?php _e( 'About', SHPPHE_TEXT ); ?></h3>
+                <h3 class="title"><?php _e( 'About', $text ); ?></h3>
                 <div class="inside">
-                    <p><?php _e( 'This plugin replaces the defaults WordPress Post/Page HTML Editor with an enhanced editor with syntax highlighting and line numbering.', SHPPHE_TEXT ); ?></p>
-                    <p class="version"><?php _e( 'Version', SHPPHE_TEXT ); ?> <?php echo SHPPHE_VERSION; ?></p>
+                    <p><?php _e( 'This plugin replaces the defaults WordPress Post/Page HTML Editor with an enhanced editor with syntax highlighting and line numbering.', $text ); ?></p>
                 </div>
             </div>
 
             <div id="support" class="postbox">
-                <h3 class="title"><?php _e( 'Support', SHPPHE_TEXT ); ?></h3>
+                <h3 class="title"><?php _e( 'Support', $text ); ?></h3>
                 <div class="inside">
-                    <p><?php _e( 'I\'m an independent developer, without a regular income, so every little contribution helps cover my costs and lets me spend more time building things for people like you to enjoy.', SHPPHE_TEXT ); ?></p>
-                    <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS" target="_blank" class="additional-button paypal"><?php _e( 'Donate with PayPal', SHPPHE_TEXT ); ?></a>
-                    <p><?php _e( 'Thanks for your support!', SHPPHE_TEXT ); ?></p>
+                    <p><?php _e( 'I\'m an independent developer, without a regular income, so every little contribution helps cover my costs and lets me spend more time building things for people like you to enjoy.', $text ); ?></p>
+                    <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS" target="_blank" class="additional-button paypal"><?php _e( 'Donate with PayPal', $text ); ?></a>
+                    <p><?php _e( 'Thanks for your support!', $text ); ?></p>
                 </div>
             </div>
 
             <div id="help" class="postbox">
-                <h3 class="title"><?php _e( 'Help', SHPPHE_TEXT ); ?></h3>
+                <h3 class="title"><?php _e( 'Help', $text ); ?></h3>
                 <div class="inside">
-                    <p><?php _e( 'Got something to say? Need help?', SHPPHE_TEXT ); ?></p>
-                    <p><a href="mailto:arthurgareginyan@gmail.com?subject=<?php echo SHPPHE_NAME; ?>">arthurgareginyan@gmail.com</a></p>
+                    <p><?php _e( 'If you have a question, please read the information in the FAQ section.', $text ); ?></p>
                 </div>
             </div>
 
@@ -60,15 +58,15 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                     ?>
 
                     <div class="postbox" id="Settings">
-                        <h3 class="title"><?php _e( 'Main Settings', SHPPHE_TEXT ); ?></h3>
+                        <h3 class="title"><?php _e( 'Main Settings', $text ); ?></h3>
                         <div class="inside">
-                            <p class="note"><?php _e( 'There you can configure this plugin.', SHPPHE_TEXT ); ?></p>
+                            <p class="note"><?php _e( 'There you can configure this plugin.', $text ); ?></p>
 
                             <table class="form-table">
 
                                 <tr>
                                     <th>
-                                        <?php _e( 'Color theme', SHPPHE_TEXT ); ?>
+                                        <?php _e( 'Color theme', $text ); ?>
                                     </th>
                                     <td>
                                         <select name="SHighlighterForPPHE_settings[theme]">
@@ -85,19 +83,19 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                                 <tr>
                                     <td></td>
                                     <td class='help-text'>
-                                        <?php _e( 'Theme which you like to view.', SHPPHE_TEXT ); ?>
+                                        <?php _e( 'Theme which you like to view.', $text ); ?>
                                     </td>
                                 </tr>
 
                                 <?php SHighlighterForPPHE_setting( 'line_numbers',
-                                                                   __( 'Display line numbers', SHPPHE_TEXT ),
+                                                                   __( 'Display line numbers', $text ),
                                                                    '',
                                                                    'check'
                                                                   );
                                 ?>
 
                                 <?php SHighlighterForPPHE_setting( 'first_line_number',
-                                                                   __( 'First line number', SHPPHE_TEXT ),
+                                                                   __( 'First line number', $text ),
                                                                    '',
                                                                    'field',
                                                                    '0',
@@ -106,14 +104,14 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                                 ?>
 
                                 <?php SHighlighterForPPHE_setting( 'line_wrapping',
-                                                                   __( 'Line wrapping', SHPPHE_TEXT ),
+                                                                   __( 'Line wrapping', $text ),
                                                                    '',
                                                                    'check'
                                                                   );
                                 ?>
 
                                 <?php SHighlighterForPPHE_setting( 'tab_size',
-                                                                   __( 'The width of Tab', SHPPHE_TEXT ),
+                                                                   __( 'The width of Tab', $text ),
                                                                    '',
                                                                    'field',
                                                                    '4',
@@ -123,15 +121,15 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 
                             </table>
 
-                            <?php submit_button( __( 'Save Changes', SHPPHE_TEXT ), 'primary', 'submit', true ); ?>
+                            <?php submit_button( __( 'Save changes', $text ), 'primary', 'submit', true ); ?>
 
                         </div>
                     </div>
 
                     <div class="postbox" id="Preview">
-                        <h3 class="title"><?php _e( 'Preview', SHPPHE_TEXT ); ?></h3>
+                        <h3 class="title"><?php _e( 'Preview', $text ); ?></h3>
                         <div class="inside">
-                            <p class="note"><?php _e( 'Click the "Save Changes" button to update this preview.', SHPPHE_TEXT ); ?></p>
+                            <p class="note"><?php _e( 'Click the "Save changes" button to update this preview.', $text ); ?></p>
                             <?php
                                 // Put the example in a variable
                                 $example = '<h1>Sticky Post</h1>
@@ -155,16 +153,16 @@ There are a few things to verify:
 </div>';
                             ?>
                             <textarea readonly id="SHighlighterForPPHE"><?php echo $example; ?></textarea>
-                            <p><?php _e( 'This is an example of HTML markup.', SHPPHE_TEXT ); ?></p>
+                            <p><?php _e( 'This is an example of HTML markup.', $text ); ?></p>
                         </div>
                     </div>
 
                     <div class="postbox" id="support-addition">
-                        <h3 class="title"><?php _e( 'Support', SHPPHE_TEXT ); ?></h3>
+                        <h3 class="title"><?php _e( 'Support', $text ); ?></h3>
                         <div class="inside">
-                            <p><?php _e( 'I\'m an independent developer, without a regular income, so every little contribution helps cover my costs and lets me spend more time building things for people like you to enjoy.', SHPPHE_TEXT ); ?></p>
-                            <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS" target="_blank" class="additional-button paypal"><?php _e( 'Donate with PayPal', SHPPHE_TEXT ); ?></a>
-                            <p><?php _e( 'Thanks for your support!', SHPPHE_TEXT ); ?></p>
+                            <p><?php _e( 'I\'m an independent developer, without a regular income, so every little contribution helps cover my costs and lets me spend more time building things for people like you to enjoy.', $text ); ?></p>
+                            <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS" target="_blank" class="additional-button paypal"><?php _e( 'Donate with PayPal', $text ); ?></a>
+                            <p><?php _e( 'Thanks for your support!', $text ); ?></p>
                         </div>
                     </div>
 

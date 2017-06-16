@@ -18,6 +18,7 @@ function SHighlighterForPPHE_versioning() {
     //                       SETTING VARIABLES                       //
     ///////////////////////////////////////////////////////////////////
 
+    // Put value of constants to variables for easier access
     $version_files = SHPPHE_VERSION;
     $settings = SHPPHE_SETTINGS;
 
