@@ -4,13 +4,13 @@
  * Plugin URI: https://github.com/ArthurGareginyan/syntax-highlighter-for-postpage-html-editor
  * Description: Replaces the defaults WordPress Post/Page HTML Editor with an enhanced editor with syntax highlighting and line numbering.
  * Author: Arthur Gareginyan
- * Author URI: http://www.arthurgareginyan.com
- * Version: 2.4
+ * Author URI: https://www.arthurgareginyan.com
+ * Version: 2.4.1
  * License: GPL3
  * Text Domain: syntax-highlighter-for-postpage-html-editor
  * Domain Path: /languages/
  *
- * Copyright 2017 Arthur Gareginyan ( website : http://www.arthurgareginyan.com )
+ * Copyright 2017 Arthur Gareginyan ( website : https://www.arthurgareginyan.com )
  *
  * This plugin is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
