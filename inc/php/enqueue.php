@@ -10,7 +10,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 /**
  * Base for the _load_scripts hook
  *
- * @since 2.4
+ * @since 2.5
  */
 function SHighlighterForPPHE_load_scripts_base( $options ) {
 
@@ -35,11 +35,19 @@ function SHighlighterForPPHE_load_scripts_base( $options ) {
     }
 
     // Dynamic JS. Create JS object and injected it into the JS file
-    if ( !empty( $options['theme'] ) ) { $theme = $options['theme']; } else { $theme = "default"; };
-    if ( !empty( $options['line_numbers'] ) && ( $options['line_numbers'] == "on" ) ) { $line_numbers = "true"; } else { $line_numbers = "false"; };
-    if ( !empty( $options['first_line_number'] ) ) { $first_line_number = $options['first_line_number']; } else { $first_line_number = "0"; };
-    if ( !empty( $options['line_wrapping'] ) && ( $options['line_wrapping'] == "on" ) ) { $line_wrapping = "true"; } else { $line_wrapping = "false"; };
-    if ( !empty( $options['tab_size'] ) ) { $tab_size = $options['tab_size']; } else { $tab_size = "4"; };
+    $theme = !empty( $options['theme'] ) ? $options['theme'] : 'default';
+    $first_line_number = !empty( $options['first_line_number'] ) ? $options['first_line_number'] : '0';
+    $tab_size = !empty( $options['tab_size'] ) ? $options['tab_size'] : '4';
+    if ( !empty( $options['line_numbers'] ) && ( $options['line_numbers'] == "on" ) ) {
+        $line_numbers = "true";
+    } else {
+        $line_numbers = "false";
+    }
+    if ( !empty( $options['line_wrapping'] ) && ( $options['line_wrapping'] == "on" ) ) {
+        $line_wrapping = "true";
+    } else {
+        $line_wrapping = "false";
+    }
     $script_params = array(
                            'theme' => $theme,
                            'line_numbers' => $line_numbers,
@@ -54,7 +62,7 @@ function SHighlighterForPPHE_load_scripts_base( $options ) {
 /**
  * Load scripts and style sheet for settings page
  *
- * @since 2.4
+ * @since 2.5
  */
 function SHighlighterForPPHE_load_scripts_admin( $hook ) {
 
@@ -67,7 +75,7 @@ function SHighlighterForPPHE_load_scripts_admin( $hook ) {
     // If is a Plugin/Theme Editors page
     if ( 'post.php' == $hook )  {
 
-        // Read options from BD
+        // Read options from database
         $options = get_option( $settings . '_settings' );
 
         // Style sheet
@@ -80,14 +88,8 @@ function SHighlighterForPPHE_load_scripts_admin( $hook ) {
     $settings_page = 'settings_page_' . $slug;
     if ( $settings_page == $hook ) {
 
-        // Read options from BD
+        // Read options from database
         $options = get_option( $settings . '_settings' );
-
-        // Style sheet
-        wp_enqueue_style( $prefix . '-admin-css', $url . 'inc/css/admin.css' );
-
-        // JavaScript
-        wp_enqueue_script( $prefix . '-admin-js', $url . 'inc/js/admin.js', array(), false, true );
 
         // Bootstrap library
         wp_enqueue_style( $prefix . '-bootstrap-css', $url . 'inc/lib/bootstrap/bootstrap.css' );
@@ -96,6 +98,12 @@ function SHighlighterForPPHE_load_scripts_admin( $hook ) {
 
         // Other libraries
         wp_enqueue_script( $prefix . '-bootstrap-checkbox-js', $url . 'inc/lib/bootstrap-checkbox.js' );
+
+        // Style sheet
+        wp_enqueue_style( $prefix . '-admin-css', $url . 'inc/css/admin.css' );
+
+        // JavaScript
+        wp_enqueue_script( $prefix . '-admin-js', $url . 'inc/js/admin.js', array(), false, true );
 
         SHighlighterForPPHE_load_scripts_base( $options );
     }
