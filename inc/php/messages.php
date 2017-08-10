@@ -10,7 +10,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 /**
  * Hello message - Bootstrap Modal
  *
- * @since 2.5
+ * @since 2.6
  */
 function SHighlighterForPPHE_hello_message() {
 
@@ -25,7 +25,7 @@ function SHighlighterForPPHE_hello_message() {
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-body">
-                        <img src="https://www.spacexchimp.com/assets/dynamic-content/images/avatar.png">
+                        <img src="<?php echo SHPPHE_URL . 'inc/img/avatar.png'; ?>">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
                         <p><?php _e( 'Hello. I\'m Arthur, the author of this plugin.', SHPPHE_TEXT ); ?></p>
                         <p><?php printf(
