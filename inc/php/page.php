@@ -2,33 +2,29 @@
 
 /**
  * Prevent Direct Access
- *
- * @since 0.1
  */
 defined( 'ABSPATH' ) or die( "Restricted access!" );
 
 /**
  * Render Settings Page
- *
- * @since 2.6
  */
-function SHighlighterForPPHE_render_submenu_page() {
+function spacexchimp_p014_render_submenu_page() {
 
     // Put value of constants to variables for easier access
-    $name = SHPPHE_NAME;
-    $slug = SHPPHE_SLUG;
-    $version = SHPPHE_VERSION;
-    $text = SHPPHE_TEXT;
+    $name = SPACEXCHIMP_P014_NAME;
+    $slug = SPACEXCHIMP_P014_SLUG;
+    $version = SPACEXCHIMP_P014_VERSION;
+    $text = SPACEXCHIMP_P014_TEXT;
 
     // Call messages
-    SHighlighterForPPHE_hello_message();
-    SHighlighterForPPHE_error_message();
+    spacexchimp_p014_hello_message();
+    spacexchimp_p014_error_message();
 
     // Layout of page
     ?>
     <div class="wrap">
         <h2>
-            <?php echo SHPPHE_NAME; ?>
+            <?php echo SPACEXCHIMP_P014_NAME; ?>
             <span>
                 <?php printf(
                               __( 'by %s Arthur Gareginyan %s', $text ),
@@ -37,7 +33,7 @@ function SHighlighterForPPHE_render_submenu_page() {
                              );
                 ?>
             </span>
-            <p class="version"><?php _e( 'Version', $text ); ?> <?php echo SHPPHE_VERSION; ?></p>
+            <p class="version"><?php _e( 'Version', $text ); ?> <?php echo SPACEXCHIMP_P014_VERSION; ?></p>
         </h2>
 
         <div id="poststuff" class="metabox-holder has-right-sidebar">
@@ -56,9 +52,9 @@ function SHighlighterForPPHE_render_submenu_page() {
             <!-- TAB 1 -->
             <div class="tab-page fade active in" id="tab-core">
                 <!-- INCLUDE SIDEBAR -->
-                <?php require_once( SHPPHE_PATH . 'inc/php/sidebar.php' ); ?>
+                <?php require_once( SPACEXCHIMP_P014_PATH . 'inc/php/sidebar.php' ); ?>
                 <!-- INCLUDE SETTINGS -->
-                <?php require_once( SHPPHE_PATH . 'inc/php/settings.php' ); ?>
+                <?php require_once( SPACEXCHIMP_P014_PATH . 'inc/php/settings.php' ); ?>
             </div>
             <!-- END-TAB 1 -->
 
@@ -186,12 +182,12 @@ function SHighlighterForPPHE_render_submenu_page() {
                 <div class="postbox">
                     <h3 class="title"><?php _e( 'Support', $text ); ?></h3>
                     <div class="inside">
-                        <img src="<?php echo SHPPHE_URL . 'inc/img/thanks.png'; ?>" alt="Thanks!" class="pull-right">
+                        <img src="<?php echo SPACEXCHIMP_P014_URL . 'inc/img/thanks.png'; ?>" alt="Thanks!" class="pull-right">
                             <p><?php _e( 'If you appreciate my work, you can buy me a coffee!', $text ); ?></p>
-                            <p><?php _e( 'I spend a lot of time and effort trying to make sure that the themes, plugins and another things I build are useful, and the ultimate proof of that for me is that you actually want to use them. But, I’m an independent developer, without a regular income, so every little contribution helps cover my costs and lets me spend more time building things for people like you to enjoy.', $text ); ?></p>
-                            <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS" target="_blank" class="btn btn-default btn-labeled">
+                            <p><?php _e( 'I spend a lot of time and effort trying to make sure that the themes, plugins and other things I build are useful, and the ultimate proof of that for me is that you actually want to use them. But, I’m an independent developer, without a regular income, so every little contribution helps cover my costs and lets me spend more time building things for people like you to enjoy.', $text ); ?></p>
+                            <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS" target="_blank" class="btn btn-default button-labeled">
                                     <span class="btn-label">
-                                        <img src="<?php echo SHPPHE_URL . 'inc/img/paypal.svg'; ?>" alt="PayPal">
+                                        <img src="<?php echo SPACEXCHIMP_P014_URL . 'inc/img/paypal.svg'; ?>" alt="PayPal">
                                     </span>
                                     <?php _e( 'Donate with PayPal', $text ); ?>
                             </a>
