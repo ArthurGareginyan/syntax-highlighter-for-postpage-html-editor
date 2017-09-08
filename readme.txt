@@ -4,7 +4,7 @@ Tags: text editor, editor, article editor, post editor, page editor, enhanced ed
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.8
-Stable tag: 2.7
+Stable tag: 2.8
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -163,6 +163,9 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 2.8 =
+* Plugin data that saved in the database upgraded to version 0001.
 
 = 2.7 =
 * Added Spanish translation. (Thanks Patricio Toledo)

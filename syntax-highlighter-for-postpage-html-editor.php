@@ -5,7 +5,7 @@
  * Description: Replaces the defaults WordPress Post/Page HTML Editor with an enhanced editor with syntax highlighting and line numbering.
  * Author: Arthur Gareginyan
  * Author URI: https://www.arthurgareginyan.com
- * Version: 2.7
+ * Version: 2.8
  * License: GPL3
  * Text Domain: syntax-highlighter-for-postpage-html-editor
  * Domain Path: /languages/
@@ -71,8 +71,8 @@ spacexchimp_p014_define_constants( 'SLUG', dirname( plugin_basename( __FILE__ ) 
 spacexchimp_p014_define_constants( 'NAME', $plugin_data['name'] );
 spacexchimp_p014_define_constants( 'VERSION', $plugin_data['version'] );
 spacexchimp_p014_define_constants( 'TEXT', $plugin_data['text'] );
-spacexchimp_p014_define_constants( 'PREFIX', 'SHighlighterForPPHE' );
-spacexchimp_p014_define_constants( 'SETTINGS', 'SHighlighterForPPHE' );
+spacexchimp_p014_define_constants( 'PREFIX', 'spacexchimp_p014' );
+spacexchimp_p014_define_constants( 'SETTINGS', 'spacexchimp_p014' );
 
 /**
  * Load the plugin modules
