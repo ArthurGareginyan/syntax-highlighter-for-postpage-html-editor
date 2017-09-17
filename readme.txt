@@ -4,7 +4,7 @@ Tags: text editor, editor, article editor, post editor, page editor, enhanced ed
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.8
-Stable tag: 2.9
+Stable tag: 2.10
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -163,6 +163,10 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 2.10 =
+* The hard coded HTML list option is replaced with the PHP function that dynamically creates lists.
+* Error in the PHP constant name fixed.
 
 = 2.9 =
 * Added the top level menu item of the brand.
