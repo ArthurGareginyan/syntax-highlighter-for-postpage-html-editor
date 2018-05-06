@@ -4,7 +4,7 @@ Tags: text editor, editor, article editor, post editor, page editor, enhanced ed
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 4.9
-Stable tag: 2.17
+Stable tag: 2.18
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -143,7 +143,7 @@ A. Yes, any contributions are very welcome! Please visit [our donation page](htt
 == Screenshots ==
 
 1. Plugin settings page.
-2. Default WP Post\Page HTML Editor.
+2. Default WordPress Post\Page HTML Editor.
 3. Post\Page HTML Editor that provided by this plugin (theme: default).
 4. Post\Page HTML Editor that provided by this plugin (theme: ambiance).
 
@@ -174,6 +174,10 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 2.18 =
+* Added auto-versioning of the CSS and JavaScript files to avoid cache issues.
+* CSS code in the file 'admin.css' is optimized.
 
 = 2.17 =
 * Fixed the link "Settings", located in the plugin's meta row on the "Plugins" page. The suffix ".php" was deleted.
@@ -293,7 +297,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * Value of the "_VERSION" constant replaced with information from the plugin header data.
 * All references to the plugin name, slug, prefix are replaced with constants.
 * Added function that render checkboxes and fields for saving plugin settings to database.
-* Added prefix to the name of the variable in 'wp_localize_script' WP function, to prevent conflicts.
+* Added prefix to the name of the variable in 'wp_localize_script' WordPress function, to prevent conflicts.
 * The "_load_scripts_base" function improved.
 * The "name" attribute removed from the "form" tag.
 * Code formatting improved.
