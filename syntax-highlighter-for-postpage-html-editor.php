@@ -5,7 +5,7 @@
  * Description: Replaces the defaults WordPress Post/Page HTML Editor with an enhanced editor with syntax highlighting and line numbering.
  * Author: Space X-Chimp
  * Author URI: https://www.spacexchimp.com
- * Version: 2.19
+ * Version: 2.20
  * License: GPL3
  * Text Domain: syntax-highlighter-for-postpage-html-editor
  * Domain Path: /languages/
@@ -78,4 +78,3 @@ require_once( SPACEXCHIMP_P014_PATH . 'inc/php/functional.php' );
 require_once( SPACEXCHIMP_P014_PATH . 'inc/php/controls.php' );
 require_once( SPACEXCHIMP_P014_PATH . 'inc/php/page.php' );
 require_once( SPACEXCHIMP_P014_PATH . 'inc/php/messages.php' );
-require_once( SPACEXCHIMP_P014_PATH . 'inc/php/uninstall.php' );
