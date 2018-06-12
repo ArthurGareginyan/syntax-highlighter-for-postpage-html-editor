@@ -178,6 +178,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 = 2.21 =
 * CodeMirror library updated to the latest version v5.38.0. The directory structure is changed (files are better organized). Added a test files for the CodeMirror modes.
 * Updated the method of loading the modes and themes of the CodeMirror library.
+* On the page 'page.php' the constants '_NAME' and '_VERSION' are replaced by '$name' and '$version'.
 
 = 2.20 =
 * Fixed a bug due to which the plugin data that stored in the database to not be deleted during the uninstallation of the plugin.
