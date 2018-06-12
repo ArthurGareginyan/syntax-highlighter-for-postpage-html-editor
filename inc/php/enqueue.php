@@ -53,7 +53,7 @@ function spacexchimp_p014_load_scripts_base( $options ) {
                            'tab_size' => $tab_size,
                            'line_wrapping' => $line_wrapping
                            );
-    wp_localize_script( $prefix . '-codemirror-setting-js', $prefix . '_scriptParams', $script_params );
+    wp_localize_script( $prefix . '-codemirror-settings-js', $prefix . '_scriptParams', $script_params );
 
 }
 
