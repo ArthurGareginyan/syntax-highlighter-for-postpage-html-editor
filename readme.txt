@@ -4,7 +4,7 @@ Tags: text editor, editor, article editor, post editor, page editor, enhanced ed
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 4.9
-Stable tag: 2.21
+Stable tag: 2.22
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -157,7 +157,7 @@ A. Yes, any contributions are very welcome! Please visit [our donation page](htt
 **License**
 
 This plugin is licensed under the [GNU General Public License, version 3 (GPLv3)](http://www.gnu.org/licenses/gpl-3.0.html) and is distributed free of charge.
-Commercial licensing (e.g. for projects that can’t use an open-source license) is available upon request.
+Commercial licensing (e.g. for projects that can’t use an open-source licence) is available upon request.
 
 **Credits**
 
@@ -174,6 +174,10 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 2.22 =
+* Added code for loading the addons of the CodeMirror library.
+* Added the addon 'autorefresh.js' to the CodeMirror editor. The code for manual refreshing the CodeMirror editor is deleted.
 
 = 2.21 =
 * CodeMirror library updated to the latest version v5.38.0. The directory structure is changed (files are better organized). Added a test files for the CodeMirror modes.
