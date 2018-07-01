@@ -81,7 +81,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                                                                    );
                                     spacexchimp_p014_control_switch( 'line_wrapping',
                                                                      __( 'Line wrapping', $text ),
-                                                                     __( 'Enable the line wrapping.', $text )
+                                                                     __( 'Enable wrapping for long lines. By default, long lines will scroll.', $text )
                                                                    );
                                     spacexchimp_p014_control_number( 'tab_size',
                                                                      __( 'Size of Tab', $text ),

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Syntax Highlighter for Post/Page HTML Editor\n"
-"POT-Creation-Date: 2018-06-12 15:35+0300\n"
+"POT-Creation-Date: 2018-07-01 20:11+0300\n"
 "PO-Revision-Date: 2017-01-31 06:52+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -305,7 +305,7 @@ msgid "Line wrapping"
 msgstr ""
 
 #: inc/php/settings.php:84
-msgid "Enable the line wrapping."
+msgid "Enable wrapping for long lines. By default, long lines will scroll."
 msgstr ""
 
 #: inc/php/settings.php:87

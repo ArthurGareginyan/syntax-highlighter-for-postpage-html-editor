@@ -1,5 +1,5 @@
 /*
- * Settings of CodeMirror editor
+ * CodeMirror editor settings
  *
  * @package     Syntax Highlighter for Post/Page HTML Editor
  * @author      Arthur Gareginyan
@@ -21,16 +21,17 @@ jQuery(document).ready(function($) {
     var mode = spacexchimp_p014_scriptParams["mode"];
 
     // Find textareas on page and replace them with the CodeMirror editor
-    $('textarea').each(function(index, elements) {
-        var editor = CodeMirror.fromTextArea( elements, {
+    $('textarea').each(function(index, element){
+        var editor = CodeMirror.fromTextArea(element, {
             lineNumbers: line_numbers,
             firstLineNumber: first_line_number,
             lineWrapping: line_wrapping,
             matchBrackets: true,
             indentUnit: tab_size,
-            readOnly: false,
             theme: theme,
-            mode: 'text/html'
+            mode: 'text/html',
+            autoRefresh: true,
+            readOnly: false
         });
     });
 

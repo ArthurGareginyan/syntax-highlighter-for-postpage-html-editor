@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Syntax Highlighter for Post/Page HTML Editor\n"
-"POT-Creation-Date: 2018-06-12 15:35+0300\n"
-"PO-Revision-Date: 2018-06-12 15:35+0300\n"
+"POT-Creation-Date: 2018-07-01 20:11+0300\n"
+"PO-Revision-Date: 2018-07-01 20:11+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -307,7 +307,7 @@ msgid "Line wrapping"
 msgstr ""
 
 #: inc/php/settings.php:84
-msgid "Enable the line wrapping."
+msgid "Enable wrapping for long lines. By default, long lines will scroll."
 msgstr ""
 
 #: inc/php/settings.php:87
