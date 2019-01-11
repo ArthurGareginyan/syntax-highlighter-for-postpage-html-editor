@@ -94,7 +94,7 @@ function spacexchimp_p014_load_scripts_admin( $hook ) {
     // If is a Plugin/Theme Editors page
     if ( 'post.php' == $hook )  {
 
-        // Read options from database
+        // Retrieve options from database
         $options = get_option( $settings . '_settings' );
 
         // Load jQuery library
@@ -114,7 +114,7 @@ function spacexchimp_p014_load_scripts_admin( $hook ) {
     $settings_page = 'settings_page_' . $slug;
     if ( $settings_page == $hook ) {
 
-        // Read options from database
+        // Retrieve options from database
         $options = get_option( $settings . '_settings' );
 
         // Load jQuery library

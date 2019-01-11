@@ -32,7 +32,7 @@ function spacexchimp_p014_control_help( $help=null ) {
  */
 function spacexchimp_p014_control_switch( $name, $label, $help=null ) {
 
-    // Read options from database and declare variables
+    // Retrieve options from database and declare variables
     $options = get_option( SPACEXCHIMP_P014_SETTINGS . '_settings' );
     $checked = !empty( $options[$name] ) ? "checked='checked'" : '';
 
@@ -64,7 +64,7 @@ function spacexchimp_p014_control_switch( $name, $label, $help=null ) {
  */
 function spacexchimp_p014_control_number( $name, $label, $help=null, $default=null ) {
 
-    // Read options from database and declare variables
+    // Retrieve options from database and declare variables
     $options = get_option( SPACEXCHIMP_P014_SETTINGS . '_settings' );
     $value = !empty( $options[$name] ) ? esc_attr( $options[$name] ) : $default;
 
@@ -109,7 +109,7 @@ function spacexchimp_p014_control_number( $name, $label, $help=null, $default=nu
  */
 function spacexchimp_p014_control_list( $name, $items, $label, $help, $default ) {
 
-    // Read options from database and declare variables
+    // Retrieve options from database and declare variables
     $options = get_option( SPACEXCHIMP_P014_SETTINGS . '_settings' );
     $option = !empty( $options[$name] ) ? $options[$name] : '';
     $list_item = '';

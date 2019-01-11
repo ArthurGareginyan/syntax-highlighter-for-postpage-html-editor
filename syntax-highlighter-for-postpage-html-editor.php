@@ -5,12 +5,12 @@
  * Description: Replaces the defaults WordPress Post/Page HTML Editor with an enhanced editor with syntax highlighting and line numbering.
  * Author: Space X-Chimp
  * Author URI: https://www.spacexchimp.com
- * Version: 2.29
+ * Version: 2.30
  * License: GPL3
  * Text Domain: syntax-highlighter-for-postpage-html-editor
  * Domain Path: /languages/
  *
- * Copyright 2017-2018 Space X-Chimp ( website : https://www.spacexchimp.com )
+ * Copyright 2017-2019 Space X-Chimp ( website : https://www.spacexchimp.com )
  *
  * This plugin is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
