@@ -2,10 +2,10 @@
 /**
  * Plugin Name: Syntax Highlighter for Post/Page HTML Editor
  * Plugin URI: https://github.com/ArthurGareginyan/syntax-highlighter-for-postpage-html-editor
- * Description: Replaces the defaults WordPress Post/Page HTML Editor with an enhanced editor with syntax highlighting and line numbering.
+ * Description: Replaces the defaults WordPress Post/Page HTML Editor with an enhanced editor with syntax highlighting, line numbering, etc.
  * Author: Space X-Chimp
  * Author URI: https://www.spacexchimp.com
- * Version: 2.30
+ * Version: 2.31
  * License: GPL3
  * Text Domain: syntax-highlighter-for-postpage-html-editor
  * Domain Path: /languages/
