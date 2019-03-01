@@ -4,7 +4,7 @@ Tags: text editor, editor, article editor, post editor, page editor, enhanced ed
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 5.1
-Stable tag: 2.32
+Stable tag: 2.33
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -179,6 +179,10 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 2.33 - 2019-03-01 =
+* Framework updated: The file "page.php" is divided into the following parts: "page.php", "usage.php", "faq.php", "support.php".
+* Framework updated: The files "settings.php", "usage.php", "faq.php", "support.php" are moved to the subfolder "tabs".
 
 = 2.32 - 2019-02-24 =
 * Added French translation. (Thanks to Hervé Bouzin)
