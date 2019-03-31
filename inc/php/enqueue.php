@@ -63,26 +63,18 @@ function spacexchimp_p014_load_scripts_dynamic_js() {
     // Retrieve options from database and declare variables
     $options = get_option( $plugin['settings'] . '_settings' );
     $theme = !empty( $options['theme'] ) ? $options['theme'] : 'default';
+    $line_wrapping = ( !empty( $options['line_wrapping'] ) && ( $options['line_wrapping'] == "on" ) ) ? 'true' : 'false';
+    $line_numbers = ( !empty( $options['line_numbers'] ) && ( $options['line_numbers'] == "on" ) ) ? 'true' : 'false';
     $first_line_number = !empty( $options['first_line_number'] ) ? $options['first_line_number'] : '0';
     $tab_size = !empty( $options['tab_size'] ) ? $options['tab_size'] : '4';
-    if ( ! empty( $options['line_numbers'] ) && ( $options['line_numbers'] == "on" ) ) {
-        $line_numbers = "true";
-    } else {
-        $line_numbers = "false";
-    }
-    if ( ! empty( $options['line_wrapping'] ) && ( $options['line_wrapping'] == "on" ) ) {
-        $line_wrapping = "true";
-    } else {
-        $line_wrapping = "false";
-    }
 
     // Create an array (JS object) with all the settings
     $script_params = array(
                            'theme' => $theme,
+                           'line_wrapping' => $line_wrapping,
                            'line_numbers' => $line_numbers,
                            'first_line_number' => $first_line_number,
-                           'tab_size' => $tab_size,
-                           'line_wrapping' => $line_wrapping
+                           'tab_size' => $tab_size
                            );
 
     // Inject the array into the JavaScript file
