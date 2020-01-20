@@ -4,7 +4,7 @@
  * @package     Syntax Highlighter for Post/Page HTML Editor
  * @author      Arthur Gareginyan
  * @link        https://www.spacexchimp.com
- * @copyright   Copyright (c) 2017-2019 Space X-Chimp. All Rights Reserved.
+ * @copyright   Copyright (c) 2017-2020 Space X-Chimp. All Rights Reserved.
  */
 
 

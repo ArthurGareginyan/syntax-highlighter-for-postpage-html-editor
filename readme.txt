@@ -4,7 +4,7 @@ Tags: text editor, editor, article editor, post editor, page editor, enhanced ed
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 5.3
-Stable tag: 2.39
+Stable tag: 2.40
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -179,6 +179,9 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 2.40 - Jan 20, 2020 =
+* Maintenance: The copyright date updated to support the 2020 year.
 
 = 2.39 - Nov 11, 2019 =
 * Maintenance: Compatibility with upcoming WordPress 5.3.
