@@ -10,7 +10,7 @@
  * Text Domain: syntax-highlighter-for-postpage-html-editor
  * Domain Path: /languages/
  *
- * Copyright 2017-2020 Space X-Chimp ( website : https://www.spacexchimp.com )
+ * Copyright 2017-2021 Space X-Chimp ( website : https://www.spacexchimp.com )
  *
  * This plugin is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
