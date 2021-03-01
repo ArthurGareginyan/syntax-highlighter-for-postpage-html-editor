@@ -68,7 +68,7 @@ spacexchimp_p014_define_constants( 'PREFIX', 'spacexchimp_p014' );
 spacexchimp_p014_define_constants( 'SETTINGS', 'spacexchimp_p014' );
 
 /**
- * A useful function that returns an array with the contents of plugin constants
+ * A useful function that returns an array with the contents of the plugin constants
  */
 function spacexchimp_p014_plugin() {
     $array = array(
