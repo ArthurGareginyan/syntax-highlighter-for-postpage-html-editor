@@ -13,8 +13,8 @@ function spacexchimp_p014_load_scripts_codemirror() {
     // Put value of plugin constants into an array for easier access
     $plugin = spacexchimp_p014_plugin();
 
-    // Retrieve options from database and declare variables
-    $options = get_option( $plugin['settings'] . '_settings' );
+    // Put the value of the plugin options into an array for easier access
+    $options = spacexchimp_p014_options();
 
     // Enqueue main files of the CodeMirror library
     wp_enqueue_style( $plugin['prefix'] . '-codemirror-css', $plugin['url'] . 'inc/lib/codemirror/lib/codemirror.css', array(), $plugin['version'], 'all' );
@@ -60,8 +60,9 @@ function spacexchimp_p014_load_scripts_dynamic_js() {
     // Put value of plugin constants into an array for easier access
     $plugin = spacexchimp_p014_plugin();
 
-    // Retrieve options from database and declare variables
-    $options = get_option( $plugin['settings'] . '_settings' );
+    // Put the value of the plugin options into an array for easier access
+    $options = spacexchimp_p014_options();
+
     $theme = !empty( $options['theme'] ) ? $options['theme'] : 'default';
     $line_wrapping = ( !empty( $options['line_wrapping'] ) && ( $options['line_wrapping'] == "on" ) ) ? 'true' : 'false';
     $line_numbers = ( !empty( $options['line_numbers'] ) && ( $options['line_numbers'] == "on" ) ) ? 'true' : 'false';
