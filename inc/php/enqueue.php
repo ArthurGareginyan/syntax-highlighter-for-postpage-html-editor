@@ -63,6 +63,7 @@ function spacexchimp_p014_load_scripts_dynamic_js() {
     // Put the value of the plugin options into an array for easier access
     $options = spacexchimp_p014_options();
 
+    // Declare variables
     $theme = !empty( $options['theme'] ) ? $options['theme'] : 'default';
     $line_wrapping = ( !empty( $options['line_wrapping'] ) && ( $options['line_wrapping'] == "on" ) ) ? 'true' : 'false';
     $line_numbers = ( !empty( $options['line_numbers'] ) && ( $options['line_numbers'] == "on" ) ) ? 'true' : 'false';
