@@ -45,7 +45,7 @@ function spacexchimp_p014_load_scripts_codemirror() {
     }
 
     // Enqueue theme
-    $theme = !empty( $options['theme'] ) ? $options['theme'] : 'default';
+    $theme = $options['theme'];
     if ( $theme != "default" ) {
         wp_enqueue_style( $plugin['prefix'] . '-codemirror-theme-css', $plugin['url'] . 'inc/lib/codemirror/theme/' . $theme . '.css', array(), $plugin['version'], 'all' );
     }
@@ -64,11 +64,11 @@ function spacexchimp_p014_load_scripts_dynamic_js() {
     $options = spacexchimp_p014_options();
 
     // Declare variables
-    $theme = !empty( $options['theme'] ) ? $options['theme'] : 'default';
-    $line_wrapping = ( !empty( $options['line_wrapping'] ) && ( $options['line_wrapping'] == "on" ) ) ? 'true' : 'false';
-    $line_numbers = ( !empty( $options['line_numbers'] ) && ( $options['line_numbers'] == "on" ) ) ? 'true' : 'false';
-    $first_line_number = !empty( $options['first_line_number'] ) ? $options['first_line_number'] : '0';
-    $tab_size = !empty( $options['tab_size'] ) ? $options['tab_size'] : '4';
+    $theme = $options['theme'];
+    $line_wrapping = $options['line_wrapping'];
+    $line_numbers = $options['line_numbers'];
+    $first_line_number = $options['first_line_number'];
+    $tab_size = $options['tab_size'];
 
     // Create an array (JS object) with all the settings
     $script_params = array(
