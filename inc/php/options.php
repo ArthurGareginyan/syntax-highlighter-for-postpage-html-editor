@@ -21,12 +21,17 @@ function spacexchimp_p014_options() {
     $array = $options;
 
     // Set default value if option is empty
-    $array['hidden_scrollto'] = !empty( $options['hidden_scrollto'] ) ? $options['hidden_scrollto'] : '0';
-    $array['theme'] = !empty( $options['theme'] ) ? $options['theme'] : 'default';
-    $array['line_wrapping'] = !empty( $options['line_wrapping'] ) ? $options['line_wrapping'] : '';
-    $array['line_numbers'] = !empty( $options['line_numbers'] ) ? $options['line_numbers'] : '';
-    $array['first_line_number'] = !empty( $options['first_line_number'] ) ? $options['first_line_number'] : '0';
-    $array['tab_size'] = !empty( $options['tab_size'] ) ? $options['tab_size'] : '4';
+    $list = array(
+        'hidden_scrollto' => '0',
+        'theme' => 'default',
+        'line_wrapping' => '',
+        'line_numbers' => '',
+        'first_line_number' => '0',
+        'tab_size' => '4',
+    );
+    foreach ( $list as $name => $default ) {
+        $array[$name] = !empty( $options[$name] ) ? $options[$name] : $default;
+    }
 
     // Sanitize data
 
