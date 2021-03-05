@@ -23,8 +23,8 @@ function spacexchimp_p014_options() {
     // Set default value if option is empty
     $array['hidden_scrollto'] = !empty( $options['hidden_scrollto'] ) ? $options['hidden_scrollto'] : '0';
     $array['theme'] = !empty( $options['theme'] ) ? $options['theme'] : 'default';
-    $array['line_wrapping'] = ( !empty( $options['line_wrapping'] ) && ( $options['line_wrapping'] == "on" ) ) ? 'true' : 'false';
-    $array['line_numbers'] = ( !empty( $options['line_numbers'] ) && ( $options['line_numbers'] == "on" ) ) ? 'true' : 'false';
+    $array['line_wrapping'] = !empty( $options['line_wrapping'] ) ? $options['line_wrapping'] : '';
+    $array['line_numbers'] = !empty( $options['line_numbers'] ) ? $options['line_numbers'] : '';
     $array['first_line_number'] = !empty( $options['first_line_number'] ) ? $options['first_line_number'] : '0';
     $array['tab_size'] = !empty( $options['tab_size'] ) ? $options['tab_size'] : '4';
 
@@ -32,7 +32,8 @@ function spacexchimp_p014_options() {
 
 
     // Modify data
-
+    $array['line_wrapping'] = ( $array['line_wrapping'] == "on" ) ? 'true' : 'false';
+    $array['line_numbers'] = ( $array['line_numbers'] == "on" ) ? 'true' : 'false';
 
     // Return the processed data
     return $array;
