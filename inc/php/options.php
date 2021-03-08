@@ -22,12 +22,12 @@ function spacexchimp_p014_options() {
 
     // Set default value if option is empty
     $list = array(
-        'hidden_scrollto' => '0',
-        'theme' => 'default',
-        'line_wrapping' => '',
-        'line_numbers' => '',
         'first_line_number' => '0',
+        'hidden_scrollto' => '0',
+        'line_numbers' => '',
+        'line_wrapping' => '',
         'tab_size' => '4',
+        'theme' => 'default',
     );
     foreach ( $list as $name => $default ) {
         $array[$name] = !empty( $options[$name] ) ? $options[$name] : $default;
@@ -37,8 +37,8 @@ function spacexchimp_p014_options() {
 
 
     // Modify data
-    $array['line_wrapping'] = ( $array['line_wrapping'] == "on" ) ? 'true' : 'false';
     $array['line_numbers'] = ( $array['line_numbers'] == "on" ) ? 'true' : 'false';
+    $array['line_wrapping'] = ( $array['line_wrapping'] == "on" ) ? 'true' : 'false';
 
     // Return the processed data
     return $array;
