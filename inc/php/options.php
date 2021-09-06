@@ -37,8 +37,8 @@ function spacexchimp_p014_options() {
 
 
     // Modify data
-    $array['line_numbers'] = ( $array['line_numbers'] == "on" ) ? 'true' : 'false';
-    $array['line_wrapping'] = ( $array['line_wrapping'] == "on" ) ? 'true' : 'false';
+    $array['line_numbers'] = ( $array['line_numbers'] == 'on' || $array['line_numbers'] == '1' || $array['line_numbers'] == 'true' ) ? 'true' : 'false';
+    $array['line_wrapping'] = ( $array['line_wrapping'] == 'on' || $array['line_wrapping'] == '1' || $array['line_wrapping'] == 'true' ) ? 'true' : 'false';
 
     // Return the processed data
     return $array;
