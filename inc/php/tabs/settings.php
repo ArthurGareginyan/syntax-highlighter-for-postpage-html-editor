@@ -50,8 +50,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                                                                    );
                                     spacexchimp_p014_control_number( 'first_line_number',
                                                                      __( 'First line number', $plugin['text'] ),
-                                                                     __( 'You can set the number of the first line.', $plugin['text'] ),
-                                                                     '0'
+                                                                     __( 'You can set the number of the first line.', $plugin['text'] )
                                                                    );
                                     spacexchimp_p014_control_switch( 'line_wrapping',
                                                                      __( 'Line wrapping', $plugin['text'] ),
@@ -59,8 +58,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                                                                    );
                                     spacexchimp_p014_control_number( 'tab_size',
                                                                      __( 'Tab character size', $plugin['text'] ),
-                                                                     __( 'The width (in spaces) of the Tab character. Default is 4.', $plugin['text'] ),
-                                                                     '4'
+                                                                     __( 'The width (in spaces) of the Tab character. Default is 4.', $plugin['text'] )
                                                                    );
                                 ?>
                             </table>
