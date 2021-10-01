@@ -53,7 +53,6 @@ function spacexchimp_p014_options() {
 
     // Modify data
     $array['line_numbers'] = ( $array['line_numbers'] === true ) ? 'true' : 'false';
-    $array['line_wrapping'] = ( $array['line_wrapping'] === true ) ? 'true' : 'false';
 
     // Return the processed data
     return $array;
