@@ -52,7 +52,7 @@ function spacexchimp_p014_options() {
     //$array['theme'] = esc_textarea( $array['theme'] );
 
     // Modify data
-    $array['line_numbers'] = ( $array['line_numbers'] === true ) ? 'true' : 'false';
+
 
     // Return the processed data
     return $array;
